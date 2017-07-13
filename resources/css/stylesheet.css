@@ -1,7 +1,17 @@
 /* Tea Cosy webpage stylesheet */
 body {
   margin: 0 0 auto 0;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica sans-serif;
+  font-size: 22px;
 }
+
+ h2, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
 
   /* Header nav style */
 
@@ -43,22 +53,28 @@ a {
 
   /* Main Content */
 
-.background {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
   width: 100%;
   padding-top: 70px;
 }
 
- /* background image */
+ /* mission background image & container */
 
- .mission-background {
+ .mission-content {
    display: flex;
    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-   position: relative;
    height: 700px;
    width: 1200px;
-   justify-content: center;
+   text-align: center;
+   align-items: center;
+ }
+
+ /* Mission banner across backgound image */
+
+ .mission-banner {
+   background-color: black;
+   width: 1200px;
  }

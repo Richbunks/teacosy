@@ -145,3 +145,25 @@ a {
  .location h2 {
    padding-bottom: 15px;
  }
+
+ /* Contact info style */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.info h2 {
+  padding-bottom: 20px;
+
+}
+
+.info h5 {
+  margin-top: 20px;
+  margin-bottom:  10px;
+}
+
+.info h5 a {
+  text-decoration: none;
+}
